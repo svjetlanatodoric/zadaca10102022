@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(47, 79, 79);
+}
+
+div.content {
+    display: flex;
+    width: 70%;
+    margin: 20px auto 70px auto;
+    box-shadow: 6px 5px 30px 4px black;
+}
+
+div.photo-and-text {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+div.photo {
+    display: flex;
+}
+
+div.photo img {
+    width: 100%;
+}
+
+div.heading-and-text {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.novi-novi-heading {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.text {
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+
+.about {
+    width: 70%;
+
+}
+
+.personal-data {
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+}
+
+.personal-data-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(117, 173, 176);
+}
+
+.paragraph-data {
+    padding-bottom: 20px;
+}
+
+.about-columns,
+.paragraph-data {
+    font-size: 15px;
+}
+
+.about-columns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.left-column {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div.birth,
+div.place,
+div.date,
+div.licence {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-column {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 15%;
+
+}
+
+.place-of-birth,
+.place-of-living,
+.date-of-birth,
+.driving-licence{
+    font-style: italic;
+    color: rgb(198, 194, 196);
+}
+
+div#education {
+    background-color: rgb(233, 233, 233);
+    padding: 30px 20px;
+}
+
+div.master-container,
+div.faculty-container,
+div.highschool-container {
+    display: inline-flex;
+}
+
+.master-year-range-container,
+.faculty-year-range-container {
+    border-bottom: 1px solid rgb(169, 169, 169);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.highschool-year-range-container {
+    padding-top: 10px;
+}
+
+.education-heading,
+.year-range {
+    color: rgb(117, 173, 176);
+}
+.master,
+.faculty,
+.highschool{
+    font-weight: bold;
+}
